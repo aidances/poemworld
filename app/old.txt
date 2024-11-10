@@ -1,0 +1,57 @@
+export default function Home() {
+  return (
+    <div className="min-h-screen bg-gradient-to-b from-purple-900 to-black p-8">
+      <main className="max-w-4xl mx-auto">
+        <h1 className="text-5xl font-bold mb-12 text-center text-white bg-clip-text">🎭 Funny Poems World 🎭</h1>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="bg-purple-800/30 p-8 rounded-xl shadow-lg hover:transform hover:scale-105 transition-all">
+            <h3 className="text-2xl font-bold mb-4 text-purple-200">The Dancing Cat</h3>
+            <p className="text-white leading-relaxed">
+              A cat that loved to dance and prance,<br/>
+              Wore tiny shoes to every dance.<br/>
+              But when the music got too hot,<br/>
+              It forgot the steps it thought it got!</p>
+          </div>
+          
+          <div className="bg-purple-800/30 p-8 rounded-xl shadow-lg hover:transform hover:scale-105 transition-all">
+            <h3 className="text-2xl font-bold mb-4 text-purple-200">The Silly Computer</h3>
+            <p className="text-white leading-relaxed">
+              My computer caught a silly cold,<br/>
+              Now all its jokes are getting old.<br/>
+              It sneezes bytes and coughs up code,<br/>
+              And keeps displaying  Error: Load !</p>
+          </div>
+          
+          <div className="bg-purple-800/30 p-8 rounded-xl shadow-lg hover:transform hover:scale-105 transition-all">
+            <h3 className="text-2xl font-bold mb-4 text-purple-200">The Pizza Dream</h3>
+            <p className="text-white leading-relaxed">
+              I dreamed I was a pizza slice,<br/>
+              With extra cheese, oh that was nice!<br/>
+              But when someone tried to take a bite,<br/>
+              I ran away in pure delight!</p>
+          </div>
+          
+          <div className="bg-purple-800/30 p-8 rounded-xl shadow-lg hover:transform hover:scale-105 transition-all">
+            <h3 className="text-2xl font-bold mb-4 text-purple-200">The Cloud&apos;s Mistake</h3>
+            <p className="text-white leading-relaxed">
+              A cloud once thought it was a sheep,<br/>
+              And tried to graze upon the deep.<br/>
+              The wind said  Hey, that&apos;s not your role! <br/>
+               Your job&apos;s to make the thunder roll! </p>
+          </div>
+          
+          <div className="bg-purple-800/30 p-8 rounded-xl shadow-lg hover:transform hover:scale-105 transition-all md:col-span-2 md:max-w-md md:mx-auto">
+            <h3 className="text-2xl font-bold mb-4 text-purple-200">The Confused Clock</h3>
+            <p className="text-white leading-relaxed">
+              There once was a clock on the wall,<br/>
+              Who didn&apos;t know time at all.<br/>
+              Its hands would spin round and round,<br/>
+              Till Tuesday was upside down!</p>
+          </div>
+        </div>
+
+      </main>
+    </div>
+  );
+}
